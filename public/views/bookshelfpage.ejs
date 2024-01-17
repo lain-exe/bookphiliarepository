@@ -1,0 +1,10 @@
+<!-- views/bookshelfpage.ejs -->
+<h1>Bookshelf Page</h1>
+
+<ul>
+    <% books.forEach(book=> { %>
+        <li>
+            <%= book.title %> by <%= book.author %>
+        </li>
+        <% }) %>
+</ul>
